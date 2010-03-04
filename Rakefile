@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "epilotto_curriculum"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Enrico Pilotto's Curriculm Vitae}
+    gem.description = %Q{Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal}
     gem.email = "enrico@megiston.it"
     gem.homepage = "http://github.com/Pioz/epilotto_curriculum"
     gem.authors = ["Enrico Pilotto"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_dependency "term-ansicolor"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

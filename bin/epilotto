@@ -1,0 +1,65 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'launchy'
+require 'term/ansicolor'
+include Term::ANSIColor
+
+curriculum = <<-EOF
+  
+  Curriculum vitae di #{red}#{bold}Enrico Pilotto#{reset}
+ ------------------------------------
+
+#{bold}Informazioni personali:#{reset}
+      indirizzo | via Roma 14, San Martino di Lupari (PD) - 35018
+       telefono | +39 333 28 03 893
+          email | enrico@megiston.it
+                |
+   cittadinanza | italiana
+data di nascita | 21/10/1984
+          sesso | maschile
+
+#{bold}Percorso di studi:#{reset}
+
+           2003 | diploma di geometra presso
+                | l'istituto tecnico G.Girardi a Cittadella (PD)
+           2006 | laurea triennale in informatica
+                | presso l'Universita` degli Studi di Padova
+                | con voto finale di 96/110
+           2009 | laurea specialistica in informatica
+                | presso l'Universita` degli Studi di Padova
+                | con voto finale di 107/110
+           
+#{bold}Esperienze professionali:#{reset}
+
+      2009-2010 | lavoro come libero professionista sviluppando
+                | applicazioni web in 'Ruby on Rails'
+                
+#{bold}Capacita` e competenze personali:#{reset}
+
+         lingue | madrelingua italiano
+                | inglese livello base
+                |
+ programmazione | C/C++ molto buono
+                | Ruby molto buono
+                | Java molto buono
+                | Python buono
+                | .NET C# molto buono
+                | Ada base (parte concorrenza)
+                | PHP buono
+                |
+  framework web | Ruby on Rails molto buono
+                |
+       librerie | GTK/GTKmm
+                | OpenGL
+                | WxWidgets
+                |
+           S.O. | GNU/Linux Debian molto buono
+                | MacOSX 10.5 molto buono
+                | ms Windows scarso
+                |
+        patente | Automobilistica B
+           
+EOF
+
+puts curriculum
