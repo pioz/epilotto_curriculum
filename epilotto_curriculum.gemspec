@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{epilotto_curriculum}
-  s.version = ""
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Enrico Pilotto"]
@@ -24,7 +24,9 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION",
      "bin/epilotto",
+     "epilotto_curriculum.gemspec",
      "lib/epilotto_curriculum.rb",
      "test/helper.rb",
      "test/test_epilotto_curriculum.rb"
