@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Enrico Pilotto's Curriculm Vitae}
     gem.description = %Q{Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal}
     gem.email = "enrico@megiston.it"
-    gem.homepage = "http://github.com/Pioz/epilotto_curriculum"
+    gem.homepage = "http://github.com/pioz/epilotto_curriculum"
     gem.authors = ["Enrico Pilotto"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     gem.add_dependency "term-ansicolor"

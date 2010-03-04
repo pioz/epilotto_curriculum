@@ -1,6 +1,6 @@
 = epilotto_curriculum
 
-Description goes here.
+Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal.
 
 == Note on Patches/Pull Requests
  
