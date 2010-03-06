@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Enrico Pilotto"]
-  s.date = %q{2010-03-04}
+  s.date = %q{2010-03-06}
   s.default_executable = %q{epilotto}
   s.description = %q{Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal}
   s.email = %q{enrico@megiston.it}
@@ -37,8 +37,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Enrico Pilotto's Curriculm Vitae}
   s.test_files = [
-    "test/helper.rb",
-     "test/test_epilotto_curriculum.rb"
+    "test/test_epilotto_curriculum.rb",
+     "test/helper.rb"
   ]
 
   if s.respond_to? :specification_version then
