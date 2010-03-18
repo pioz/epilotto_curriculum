@@ -30,6 +30,10 @@ luogo di nascita | Cittadella (PD)
                  | 107/110.
            
 #{bold}Esperienze professionali#{reset}
+            2006 | Stage di tre mesi nella primavera del 2006 l'azienda Digitalblu
+                 | s.n.c. nel quale ho sviluppato un'applicazione software in C\#
+                 | (Visual Studio .NET 2005) per manipolare telefonate tramite
+                 | centralino telefonico.
        2009-2010 | Lavoro come libero professionista sviluppando applicazioni
                  | web in 'Ruby on Rails'.
                 
@@ -38,6 +42,15 @@ luogo di nascita | Cittadella (PD)
                  | studiata tre anni alle scuole medie e cinque anni alle scuole
                  | superiori.
          patente | Automobilistica B
+                 |
+                 |
+          skills | * Interessato e incuriosito dalle nuove tecnologie. Non mi
+                 |   fossilizzo su un'unica tecnologia.
+                 | * Versatile e poliedrico nell'uso di linguaggi di programmazione e
+                 |   tool di sviluppo.
+                 | * Buona esperienza nel lavoro in team, conoscenza di tool di
+                 |   supporto come tracker, sistemi di versionamento.
+                 | * Esperienza nel reperire informazioni dal web: API, blog, forum...
                  |
             S.O. | GNU/Linux Debian molto buono
                  | MacOSX 10.5 molto buono
@@ -58,6 +71,7 @@ luogo di nascita | Cittadella (PD)
                  | MySQL molto buono
                  | Oracle base
                  | Microsoft Visual Studio .NET base
+                 | Git moltobuono
                  | GTK/GTKmm
                  | OpenGL
                  | WxWidgets

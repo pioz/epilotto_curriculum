@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{epilotto_curriculum}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Enrico Pilotto"]
-  s.date = %q{2010-03-06}
+  s.date = %q{2010-03-18}
   s.default_executable = %q{epilotto}
   s.description = %q{Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal}
   s.email = %q{enrico@megiston.it}
