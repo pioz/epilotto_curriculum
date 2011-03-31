@@ -10,7 +10,6 @@ begin
     gem.email = "enrico@megiston.it"
     gem.homepage = "http://github.com/pioz/epilotto_curriculum"
     gem.authors = ["Enrico Pilotto"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     gem.add_dependency "term-ansicolor"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

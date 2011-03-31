@@ -1,87 +1,87 @@
 #!/usr/bin/env ruby
+# encoding: UTF-8
 
 require 'rubygems'
 require 'term/ansicolor'
 include Term::ANSIColor
 
 curriculum = <<-EOF
-  
-  Curriculum vitae di #{red}#{bold}Enrico Pilotto#{reset}
- ------------------------------------
 
-#{bold}Informazioni personali#{reset}
-       indirizzo | via Roma 14, San Martino di Lupari (PD) - 35018
-        telefono | +39 333 28 03 893
-           email | enrico@megiston.it
-                 |
-    cittadinanza | italiana
- data di nascita | 21 Ottobre 1984
-luogo di nascita | Cittadella (PD)
-          sesso  | maschile
+  #{red}#{bold}Enrico Pilotto#{reset}'s Curriculum Vitæ
+ ----------------------------------
 
-#{bold}Percorso di studi#{reset}
-            2003 | Ottenuto il diploma di 'Geometra' presso L'Istituto Tecnico
-                 | Statale Commerciale, Turistico e per Geometri
-                 | 'Giacinto Girardi' di Cittadella (PD).
-            2006 | Ottenuta laurea triennale in informatica presso l'Universita`
-                 | degli Studi di Padova con voto finale di 96/110.
-            2009 | Ottenuta laurea specialistica in informatica presso
-                 | l'Universita` degli Studi di Padova con voto finale di
-                 | 107/110.
-           
-#{bold}Esperienze professionali#{reset}
-            2006 | Stage di tre mesi nella primavera del 2006 l'azienda Digitalblu
-                 | s.n.c. nel quale ho sviluppato un'applicazione software in C\#
-                 | (Visual Studio .NET 2005) per manipolare telefonate tramite
-                 | centralino telefonico.
-       2009-2010 | Lavoro come libero professionista sviluppando applicazioni
-                 | web in 'Ruby on Rails'.
-                
-#{bold}Capacita` e competenze personali#{reset}
-          lingue | Madrelingua italiano. Conoscenza base della lingua inglese
-                 | studiata tre anni alle scuole medie e cinque anni alle scuole
-                 | superiori.
-         patente | Automobilistica B
-                 |
-                 |
-          skills | * Interessato e incuriosito dalle nuove tecnologie. Non mi
-                 |   fossilizzo su un'unica tecnologia.
-                 | * Versatile e poliedrico nell'uso di linguaggi di programmazione e
-                 |   tool di sviluppo.
-                 | * Buona esperienza nel lavoro in team, conoscenza di tool di
-                 |   supporto come tracker, sistemi di versionamento.
-                 | * Esperienza nel reperire informazioni dal web: API, blog, forum...
-                 |
-            S.O. | GNU/Linux Debian molto buono
-                 | MacOSX 10.5 molto buono
-                 | ms Windows scarso
-  programmazione | C/C++ molto buono
-                 | Ruby molto buono
-                 | Java molto buono
-                 | Python buono
-                 | .NET C# molto buono
-                 | Ada base (parte concorrenza)
-                 | PHP buono
-                 | ML base
-                 | LaTeX molto buono
-                 |
-   framework web | Ruby on Rails molto buono
-                 |
-           altro | Apache2 molto buono
-                 | MySQL molto buono
-                 | Oracle base
-                 | Microsoft Visual Studio .NET base
-                 | Git moltobuono
-                 | GTK/GTKmm
-                 | OpenGL
-                 | WxWidgets
-                 | ...
+#{bold}#{yellow}Personal information#{reset}
+            name #{cyan}|#{reset} Enrico
+         surname #{cyan}|#{reset} Pilotto
+         address #{cyan}|#{reset} via Roma 14, San Martino di Lupari (PD) - 35018
+     nationality #{cyan}|#{reset} italian
+   date of birth #{cyan}|#{reset} 21 October 1984
+             sex #{cyan}|#{reset} M
+                 #{cyan}|#{reset}
+       telephone #{cyan}|#{reset} +39 333 2803893
+           email #{cyan}|#{reset} enrico@megiston.it
+         website #{cyan}|#{reset} http://www.pioz.it/
+         twitter #{cyan}|#{reset} http://twitter.com/pioz
 
-#{bold}Autorizzazione dati personali#{reset}
-                 | Acconsento il trattamento dei dati qui sopra riportati in
-                 | ottemperanza della legge 675/96 per tutti gli scopi, fatto
-                 | salvo per quelli pubblicitari e/o statistici. Tutti gli abusi
-                 | verranno perseguiti a norma di legge.
+#{bold}#{yellow}Education and training#{reset}
+            2003 #{cyan}|#{reset} High school degree - Surveyor
+            2009 #{cyan}|#{reset} Master degree in Computer Science at the University of Padua
+                 #{cyan}|#{reset} with vote 107/110.
+
+#{bold}#{yellow}Work experience#{reset}
+            2006 #{cyan}|#{reset} Three-month internship in the spring of 2006 at the company
+                 #{cyan}|#{reset} Digitalblu s.n.c. in which I have developed a software
+                 #{cyan}|#{reset} application in C\# (Visual Studio. NET 2005) to handle calls
+                 #{cyan}|#{reset} through a PBX.
+       2009-2011 #{cyan}|#{reset} Working as a freelancer developing web applications in
+                 #{cyan}|#{reset} 'Ruby on Rails'.
+   pubblications #{cyan}|#{reset} Compact preference representation in stable marriage problems.
+
+#{bold}#{yellow}Personal skills#{reset}
+       languages #{cyan}|#{reset} Italian native speaker. Basic knowledge of English studied
+                 #{cyan}|#{reset} three years in middle school and five years in high school.
+ driving license #{cyan}|#{reset} Driver's license B
+                 #{cyan}|#{reset}
+          skills #{cyan}|#{reset} * Computer science is my passion.
+                 #{cyan}|#{reset} * Interested and intrigued by new technologies. I do not
+                 #{cyan}|#{reset}   fossilize over a single technology.
+                 #{cyan}|#{reset} * Versatile in the use of programming languages and
+                 #{cyan}|#{reset}   development tools.
+                 #{cyan}|#{reset} * Good experience in team work, knowledge of support
+                 #{cyan}|#{reset}   tools such as trackers, version control system.
+                 #{cyan}|#{reset} * Experience in obtaining information from the web: doc,
+                 #{cyan}|#{reset}   API, blog, forum...
+                 #{cyan}|#{reset} * When I have a problem, first search on Google, then
+                 #{cyan}|#{reset}   ask to other people!
+                 #{cyan}|#{reset}
+            S.O. #{cyan}|#{reset} GNU/Linux Debian (very good)
+                 #{cyan}|#{reset} MacOSX 10.5 (very good)
+                 #{cyan}|#{reset} MS Windows (poor)
+     programming #{cyan}|#{reset} C/C++ (very good)
+                 #{cyan}|#{reset} Ruby (very good)
+                 #{cyan}|#{reset} Java (good)
+                 #{cyan}|#{reset} Python (good)
+                 #{cyan}|#{reset} .NET C# (very good)
+                 #{cyan}|#{reset} Ada (base - concurrency)
+                 #{cyan}|#{reset} PHP (good)
+                 #{cyan}|#{reset} ML (poor)
+                 #{cyan}|#{reset} LaTeX (very good)
+                 #{cyan}|#{reset}
+   web framework #{cyan}|#{reset} Ruby on Rails (very good)
+                 #{cyan}|#{reset}
+           other #{cyan}|#{reset} Apache2 (very good)
+                 #{cyan}|#{reset} MySQL (very good)
+                 #{cyan}|#{reset} Oracle (poor)
+                 #{cyan}|#{reset} MongoDB (good)
+                 #{cyan}|#{reset} Microsoft Visual Studio .NET (base)
+                 #{cyan}|#{reset} Git (very good)
+                 #{cyan}|#{reset} GTK/GTKmm
+                 #{cyan}|#{reset} OpenGL
+                 #{cyan}|#{reset} WxWidgets
+                 #{cyan}|#{reset} ...
+                 #{cyan}|#{reset}
+   some projects #{cyan}|#{reset} https://github.com/pioz
+
 EOF
 
 puts curriculum

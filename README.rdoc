@@ -3,7 +3,7 @@
 Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal.
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
@@ -14,4 +14,4 @@ Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal.
 
 == Copyright
 
-Copyright (c) 2010 Enrico Pilotto. See LICENSE for details.
+Copyright (c) 2011 Enrico Pilotto. See LICENSE for details.
