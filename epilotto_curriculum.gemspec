@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors       = ["Enrico Pilotto"]
   s.email         = ["enrico@megiston.it"]
   s.homepage      = "http://github.com/pioz/epilotto_curriculum"
-  s.summary       = "Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal"
-  s.description   = s.summary
+  s.summary       = "Enrico Pilotto's curriculum vitae"
+  s.description   = "Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal"
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
