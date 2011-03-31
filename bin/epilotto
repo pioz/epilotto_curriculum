@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# encoding: UTF-8
+# -*- encoding: utf-8 -*-
 
 require 'rubygems'
 require 'term/ansicolor'
@@ -7,8 +7,8 @@ include Term::ANSIColor
 
 curriculum = <<-EOF
 
-  #{red}#{bold}Enrico Pilotto#{reset}'s Curriculum Vitæ
- ----------------------------------
+  #{red}#{bold}Enrico Pilotto#{reset}'s Curriculum Vitae
+ -----------------------------------
 
 #{bold}#{yellow}Personal information#{reset}
             name #{cyan}|#{reset} Enrico
