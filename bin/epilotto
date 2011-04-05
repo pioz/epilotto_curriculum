@@ -18,13 +18,12 @@ curriculum = <<-EOF
    date of birth #{cyan}|#{reset} 21 October 1984
              sex #{cyan}|#{reset} M
                  #{cyan}|#{reset}
-       telephone #{cyan}|#{reset} +39 333 2803893
-           email #{cyan}|#{reset} enrico@megiston.it
+           email #{cyan}|#{reset} enrico@megiston.it (best way to contact me)
          website #{cyan}|#{reset} http://www.pioz.it/
          twitter #{cyan}|#{reset} http://twitter.com/pioz
 
 #{bold}#{yellow}Education and training#{reset}
-            2003 #{cyan}|#{reset} High school degree - Surveyor
+            2003 #{cyan}|#{reset} High school degree - Surveyor.
             2009 #{cyan}|#{reset} Master degree in Computer Science at the University of Padua
                  #{cyan}|#{reset} with vote 107/110.
 
