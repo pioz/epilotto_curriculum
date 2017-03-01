@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# -*- encoding: utf-8 -*-
+
+require 'epilotto_curriculum'
+include EpilottoCurriculum
+
+CV_PATH = File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib/cv.yml')
+
+puts build_from_yaml(CV_PATH)
