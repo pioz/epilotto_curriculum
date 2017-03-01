@@ -2,23 +2,9 @@
 
 Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal.
 
-## Get your cv
-
-Clone this project and edit the `cv.yml` file with your cv data.
-
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'epilotto_curriculum'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install epilotto_curriculum
 
@@ -30,7 +16,7 @@ Execute the command:
 
 ## Get your cv
 
-Clone this project and edit the `cv.yml` file with your cv data.
+Clone this project and edit the `cv.yml` file with your data.
 
 ## Development
 
@@ -40,7 +26,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/epilotto_curriculum.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pioz/epilotto_curriculum.
 
 
 ## License
