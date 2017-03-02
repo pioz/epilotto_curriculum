@@ -7,12 +7,13 @@ module EpilottoCurriculum
   def build_from_yaml(yaml_file, width: 80, left_column_max_width_percent: 30)
     cv = YAML.load_file(yaml_file)
     name = cv.delete('name')
+    updated_at = cv.delete('updated_at')
     left_column_max_width = (width * (left_column_max_width_percent/100.0)).round
     max_paragraph_width = cv.values.map(&:keys).flatten.max{|x,y| x.size <=> y.size}.size
     lc_w = (max_paragraph_width <= left_column_max_width ? max_paragraph_width : left_column_max_width) + 1
     rc_w = width - 3 - lc_w
 
-    s = [draw_title(name, width)]
+    s = [draw_title(name, width, updated_at)]
     cv.each do |section, data|
       if section != :name
         s << draw_section(section, width) # lc_w - 1
@@ -29,7 +30,6 @@ module EpilottoCurriculum
         end
       end
     end
-    s << ''
     return s.join("\n")
   end
 
@@ -74,10 +74,11 @@ module EpilottoCurriculum
     return r.join("\n")
   end
 
-  def draw_title(name, width)
+  def draw_title(name, width, updated_at = nil)
     title = "#{name.upcase}'s curriculum vitæ"
-    s = "#{title} (last update 1 March 2017)".center(width)
-    s.gsub!(title, bold(red(title)))
+    s = title
+    s = "#{title} (last update #{updated_at})" if updated_at
+    s = s.center(width).gsub(title, bold(red(title)))
     return "\n#{s}\n"
   end
 
