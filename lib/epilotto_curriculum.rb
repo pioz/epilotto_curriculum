@@ -12,7 +12,7 @@ module EpilottoCurriculum
     lc_w = (max_paragraph_width <= left_column_max_width ? max_paragraph_width : left_column_max_width) + 1
     rc_w = width - 3 - lc_w
 
-    s = [draw_title(name)]
+    s = [draw_title(name, width)]
     cv.each do |section, data|
       if section != :name
         s << draw_section(section, width) # lc_w - 1
@@ -29,8 +29,8 @@ module EpilottoCurriculum
         end
       end
     end
-
-    return s
+    s << ''
+    return s.join("\n")
   end
 
   private
@@ -40,28 +40,27 @@ module EpilottoCurriculum
     lines = s.to_s.split("\n")
     output = []
     lines.each do |line|
-      line = line.gsub('<b>', bold).gsub('</b>', reset)
       pad = line[0] == '*' ? 2 : 0
       words = line.split
       r = words.first
       if words.any?
-        w = r.gsub(bold, '').gsub(reset, '').size
+        w = r.gsub(/<\/?b>/, '').size
         words[1..-1].each do |word|
-          size = word.gsub(bold, '').gsub(reset, '').size
+          size = word.gsub(/<\/?b>/, '').size
           if w + size + 1 <= width
             r += ' ' + word
             w += size + 1
           else
             n = "\n"
-            if r.count(bold) != r.count(reset)
-              n = "#{reset}\n#{bold}"
+            if r.scan(/<b>/).size != r.scan(/<\/b>/).size
+              n = "</b>\n<b>"
             end
             r += n + ' ' * pad + word
             w = size
           end
         end
       end
-      output << r
+      output << r.to_s.gsub('<b>', bold).gsub('</b>', reset)
     end
     return output.join("\n")
   end
@@ -75,16 +74,17 @@ module EpilottoCurriculum
     return r.join("\n")
   end
 
-  def draw_title(name)
-    s = "  #{red}#{bold}#{name}#{reset}'s Curriculum Vitæ"
-    s += "\n #{red}#{'─'*(s.size+2-15)}#{red}"
-    return "\n#{s}\n\n"
+  def draw_title(name, width)
+    title = "#{name.upcase}'s curriculum vitæ"
+    s = "#{title} (last update 1 March 2017)".center(width)
+    s.gsub!(title, bold(red(title)))
+    return "\n#{s}\n"
   end
 
   def draw_section(s, width)
     lw = width - s.size - 4
     lw = lw < 0 ? 0 : lw
-    return "#{bold}#{yellow}#{'─'*2} #{s} #{'─'*lw}#{reset}"
+    return bold(yellow("#{'─'*2} #{s} #{'─'*lw}"))
   end
 
 end

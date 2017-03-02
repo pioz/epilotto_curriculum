@@ -1,15 +1,15 @@
 name: Enrico Pilotto
 Personal Information:
-  name: Enrico
-  surname: Pilotto
-  address: via Marconi 4/3, San Martino di Lupari (PD), 35018, Italy
-  nationality: italian
-  date of birth: 21 October 1984
-  sex: M
+  Name: Enrico
+  Surname: Pilotto
+  Address: via Marconi 4/3, San Martino di Lupari (PD), 35018, Italy
+  Nationality: italian
+  Date of birth: 21 October 1984
+  Sex: M
   sep:
-  email: enrico@megiston.it (best way to contact me)
-  website: http://www.pioz.it/
-  twitter: https://twitter.com/pioz
+  Email: enrico@megiston.it (best way to contact me)
+  Website: http://www.pioz.it/
+  Twitter: https://twitter.com/pioz
 Education:
   2003: |
     <b>High school degree - Surveyor</b>
@@ -22,10 +22,10 @@ Education:
 
     Software Engineering, Artificial Intelligence, Web Development, Programming, Object Oriented Programming, Distributed Systems, Computer Architecture, Networking, Computer Security, Logic, Algebra, Math...
 Pubblications:
-  title: <b>Compact preference representation in stable marriage problems</b>
-  supervisors: prof. Francesca Rossi, prof. Khristen Venable, prof. Livio Colussi
-  link: http://www.math.unipd.it/~frossi/adt6-cameraready.pdf
-  description: The stable marriage problem has many practical applications in twosided markets like those that assign doctors to hospitals, students to schools, or buyers to vendors. Most algorithms to find stable marriages assume that the participants explicitly expresses a preference ordering. This can be problematic when the number of options is large or has a combinatorial structure. We consider therefore using CP-nets, a compact preference formalism in stable marriage problems. We study the impact of this formalism on the computational complexity of stable marriage procedures, as well as on the properties of the solutions computed by these procedures. We show that it is possible to model preferences compactly without significantly increasing the complexity of stable marriage procedures and whilst maintaining the desirable properties of the matching returned.
+  Title: <b>Compact preference representation in stable marriage problems</b>
+  Supervisors: prof. Francesca Rossi, prof. Khristen Venable, prof. Livio Colussi
+  Link: http://www.math.unipd.it/~frossi/adt6-cameraready.pdf
+  Description: The stable marriage problem has many practical applications in twosided markets like those that assign doctors to hospitals, students to schools, or buyers to vendors. Most algorithms to find stable marriages assume that the participants explicitly expresses a preference ordering. This can be problematic when the number of options is large or has a combinatorial structure. We consider therefore using CP-nets, a compact preference formalism in stable marriage problems. We study the impact of this formalism on the computational complexity of stable marriage procedures, as well as on the properties of the solutions computed by these procedures. We show that it is possible to model preferences compactly without significantly increasing the complexity of stable marriage procedures and whilst maintaining the desirable properties of the matching returned.
 Work Experience:
   2006: |
     <b>Three-months internship at Digitalblu s.n.c.</b>
@@ -33,34 +33,34 @@ Work Experience:
 
     I developed a software application in C# (Visual Studio. NET 2005) to handle calls through a PBX.
   sep1:
-  September 2009 – Present: |
-    <b>Free lancer and founder of Megiston</b>
+  September 2009 – present: |
+    <b>Freelance and founder of Megiston</b>
     Albignasego (PD), Italy
 
     Founder with Davide Barison, development Ruby on Rails based web solutions and graphic communication. Startup and ecommerce specialization. Developed more than 30 projects. For portfolio synthesis please visit http://www.megiston.it.
   sep2:
-  March 2012 – Present: |
+  March 2012 – present: |
     <b>Software Engineer at Timerepublik</b>
     Lugano, Switzerland and Padova, Italy
 
     Backend programmer
     The First Global Time Bank. Timerepublik is a market place that allows you to offer skills (talent) to others members of the community in exchange of time at a one to one ratio. Time becomes the unit of exchange instead of money. Time accumulated can then be exchanged without any restrictions for small favors within the community. Visit http://www.timerepublik.com.
 Languages:
-  italian: Mother tongue
-  english: Standard working proficiency studied three years in middle school and five years in high school
+  Italian: Mother tongue
+  English: Standard working proficiency studied three years in middle school and five years in high school
 Personal skills:
-  skills: |
+  Skills: |
     * Computer science is my passion
     * Interested and intrigued by new technologies, I do not fossilize over a single technology
     * Versatile in the use of programming languages and development tools
     * Good experience in team work, knowledge of support tools such as trackers, version control system
     * Experience in obtaining information from the web: doc, API, blog, forum...
   sep:
-  operating systems: |
+  Operating systems: |
     GNU/Linux Debian (very good)
     Mac OS X (very good)
     MS Windows (poor)
-  programming languages: |
+  Programming languages: |
     C/C++ (very good)
     Ruby (very good)
     Javascript (very good)
@@ -71,14 +71,14 @@ Personal skills:
     PHP (poor)
     ML (poor)
     LaTeX (very good)
-  other languages: HTML, CSS, Javascript
+  Other languages: HTML, CSS, Javascript
   DBMS: |
     MySQL (very good)
     MongoDB (very good)
     Redis (very good)
     Oracle (poor)
-  frameworks: Ruby on Rails (very good)
-  other: |
+  Frameworks: Ruby on Rails (very good)
+  Other: |
     HTML (very good)
     CSS (very good)
     Apache2 (very good)
@@ -92,6 +92,5 @@ Interests:
   Cracking: XSS, SQL injection, Brute force scripting, DoS
   Video games: World of Warcraft, Hearthstone, Quake 3 arena, Monkey Island, Warcraft III
 Additional:
-  driving licens: Clean european driving license B
-  relationship status: Married to Deborah Stocco
-  last update: 1 March 2017
+  Driving licens: Clean european driving license B
+  Relationship status: Married to Deborah Stocco
