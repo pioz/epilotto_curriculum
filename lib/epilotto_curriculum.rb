@@ -8,6 +8,7 @@ module EpilottoCurriculum
     cv = YAML.load_file(yaml_file)
     name = cv.delete('name')
     updated_at = cv.delete('updated_at')
+    about_me = cv.delete('about_me')
     left_column_max_width = (width * (left_column_max_width_percent/100.0)).round
     max_paragraph_width = cv.values.map(&:keys).flatten.max{|x,y| x.size <=> y.size}.size
     lc_w = (max_paragraph_width <= left_column_max_width ? max_paragraph_width : left_column_max_width) + 1
@@ -30,6 +31,7 @@ module EpilottoCurriculum
         end
       end
     end
+    s << draw_about_me(name, about_me, width)
     return s.join("\n")
   end
 
@@ -86,6 +88,13 @@ module EpilottoCurriculum
     lw = width - s.size - 4
     lw = lw < 0 ? 0 : lw
     return bold(yellow("#{'─'*2} #{s} #{'─'*lw}"))
+  end
+
+  def draw_about_me(name, link, width)
+    if link.present?
+      s = "ℹ️  Really more info about #{name} here: #{link}"
+      return "\n#{s}\n"
+    end
   end
 
 end
