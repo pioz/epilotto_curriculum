@@ -1,98 +1,76 @@
 name: Enrico Pilotto
-updated_at: 1 August 2017
-about_me: http://www.rubyonrailspadova.com/
+updated_at: 29 September 2017
+about_me: http://rubyonrailspadova.com/
 Personal Information:
   Name: Enrico
   Surname: Pilotto
   Address: via Marconi 4/3, San Martino di Lupari (PD), 35018, Italy
-  Nationality: italian
-  Date of birth: 21 October 1984
   Sex: M
+  Date of birth: 21 October 1984
+  Nationality: italian
   sep:
-  Email: enricopilotto@gmx.com (best way to contact me)
-  Website: http://www.rubyonrailspadova.com/
+  Email: epilotto@gmx.com (best way to contact me)
+  Website: http://rubyonrailspadova.com/
   Twitter: https://twitter.com/pioz
+Work Experience:
+  April 2009 – present: |
+    <b>Web developer</b>
+    Freelancer - Albignasego (PD) - Italy
+
+    In these years as freelancer I have developed many web applications of all kinds: from classic dynamic business websites to important e-commerce, product configurators, CMS, web management software and even social networks. I have developed projects for large companies such as Radio 105 and Selle Italia. Although I prefer the backend development of an application, I can easily move in the frontend, in fact I have good knowledge of HTML, CSS and Javascript, also experienced in developing interfaces in React.
+  sep1:
+  April 2012 – February 2017: |
+    <b>Leader backend developer</b>
+    Timerepublik S.A. - Albignasego (PD) - Italy / Lugano - Switzerland
+
+    I have designed and developed the backend of the Timerepublik web application, a social network for the exchange of talents in exchange for time. Created by the idea of two Swiss people, in this community, users can exchange favours and pay with time units that act as a real currency. It was great to work on this project that definitely gave me the chance to increase my Rails mastery, but also to solve many problems that in an application like this one has to deal with. Also I could experience working in real team and know a little about Swiss realities.
+  sep2:
+  2006: |
+    <b>Three-months internship</b>
+    Digitalblu s.n.c. - San Zenone degli Ezzelini (TV) – Italy
+
+    I have developed a software in C# (Visual Studio .NET 2005) for handling phone calls through a PBX.
 Education:
-  2003: |
-    <b>High school degree - Surveyor</b>
-    I.T.S. Girardi, Cittadella (PD), Italy
-  sep:
   2009: |
     <b>Master degree in Computer Science</b>
-    University of Study of Padua, Italy
+    University of Padua - Italy
     Final evaluation 107/110
 
-    Software Engineering, Artificial Intelligence, Web Development, Programming, Object Oriented Programming, Distributed Systems, Computer Architecture, Networking, Computer Security, Logic, Algebra, Math...
-Pubblications:
-  Title: <b>Compact preference representation in stable marriage problems</b>
-  Supervisors: prof. Francesca Rossi, prof. Khristen Venable, prof. Livio Colussi
-  Link: http://www.math.unipd.it/~frossi/adt6-cameraready.pdf
-  Description: The stable marriage problem has many practical applications in twosided markets like those that assign doctors to hospitals, students to schools, or buyers to vendors. Most algorithms to find stable marriages assume that the participants explicitly expresses a preference ordering. This can be problematic when the number of options is large or has a combinatorial structure. We consider therefore using CP-nets, a compact preference formalism in stable marriage problems. We study the impact of this formalism on the computational complexity of stable marriage procedures, as well as on the properties of the solutions computed by these procedures. We show that it is possible to model preferences compactly without significantly increasing the complexity of stable marriage procedures and whilst maintaining the desirable properties of the matching returned.
-Work Experience:
-  2006: |
-    <b>Three-months internship at Digitalblu s.n.c.</b>
-    Padova, Italy
-
-    I developed a software application in C# (Visual Studio. NET 2005) to handle calls through a PBX.
+    Artificial intelligence, Distributed systems, Algorithms 3, Concurrent programming, Formal methods for concurrency, Constraint systems, 3D graphic, Multimedia systems, ...
   sep1:
-  September 2009 – present: |
-    <b>Freelance and founder of Megiston</b>
-    Albignasego (PD), Italy
+  2006: |
+    <b>Degree in Computer Science</b>
+    University of Padua - Italy
 
-    Founder with Davide Barison, development Ruby on Rails based web solutions and graphic communication. Startup and ecommerce specialization. Developed more than 30 projects. For portfolio synthesis please visit http://www.megiston.it.
+    Software engineering, Web development, Programming, Object oriented programming, Algorithms, Computer architecture, Networking, Computer security, Mathematics, Algebra, Logic, ...
   sep2:
-  March 2012 – January 2017: |
-    <b>Software Engineer at Timerepublik</b>
-    Lugano, Switzerland and Padova, Italy
-
-    Backend programmer
-    The First Global Time Bank. Timerepublik is a market place that allows you to offer skills (talent) to others members of the community in exchange of time at a one to one ratio. Time becomes the unit of exchange instead of money. Time accumulated can then be exchanged without any restrictions for small favors within the community. Visit http://www.timerepublik.com.
+  2003: |
+    <b>High school degree - Surveyor</b>
+    I.T.S. Girardi - Cittadella (PD) - Italy
 Languages:
   Italian: Mother tongue
   English: Standard working proficiency studied three years in middle school and five years in high school
-Personal skills:
+Job-related skills:
   Skills: |
-    * Computer science is my passion
-    * Interested and intrigued by new technologies, I do not fossilize over a single technology
-    * Versatile in the use of programming languages and development tools
-    * Good experience in team work, knowledge of support tools such as trackers, version control system
-    * Experience in obtaining information from the web: doc, API, blog, forum...
-  sep:
-  Operating systems: |
-    GNU/Linux Debian (very good)
-    Mac OS X (very good)
-    MS Windows (poor)
-  Programming languages: |
-    C/C++ (very good)
-    Ruby (very good)
-    Javascript (very good)
-    Java (good)
-    Python (good)
-    .NET C# (very good)
-    Ada (base - concurrency)
-    PHP (poor)
-    ML (poor)
-    LaTeX (very good)
-  Other languages: HTML, CSS, Javascript
-  DBMS: |
-    MySQL (very good)
-    MongoDB (very good)
-    Redis (very good)
-    Oracle (poor)
-  Frameworks: Ruby on Rails (very good)
-  Other: |
-    HTML (very good)
-    CSS (very good)
-    Apache2 (very good)
-    Microsoft Visual Studio .NET (good)
-    Git (very good)
-    GTK/QT (good)
-    OpenGL (good)
-    ...
-Interests:
-  Computer programming: Open source contributor at http://www.github.com/pioz
-  Cracking: XSS, SQL injection, Brute force scripting, DoS
-  Video games: World of Warcraft, Hearthstone, Quake 3 arena, Monkey Island, Warcraft III
-Additional:
-  Driving licens: Clean european driving license B
+    * I work daily using Ruby on Rails for 8 years, ensuring a great experience of this framework and the Ruby language. Specialized in backend development of web applications. From the solid foundations of my studies to acquire the master degree in computer science at the University of Padua I have integrated my knowledge day after day to improve myself and specialize in the development of web applications. Great knowledge of Unix systems and good ability to work in groups with excellent mastery of versioning systems, especially Git. Currently I work as a freelancer and I am always happy to evaluate new challenges, projects and collaborations of any kind. I'm also part of Megiston, a group of freelancers IT professionals who put together their skills to deal with very important and challenging projects.
+    * Skilful in designing and programming web applications and json RESTful based API.
+    * Computer science is my passion.
+    * Interested and intrigued by new technologies, I do not fossilize over a single technology.
+    * Very versatile and able to quickly learn new programming languages and frameworks.
+    * I have a good teamwork experience and I like use support tools such as trackers and versioning systems.
+    * Problem solving adept.
+  sep1:
+  Programming languages: C, C++, Ruby, Java, Python, .NET C#, Ada, PHP, Go, LATEX
+  Frontend: HTML, CSS, Javascript, HAML, SCSS
+  DBMS: MySQL, MongoDB, Redis, SQLite
+  Operating systems: GNU/Linux Debian, Mac OS X
+  Frameworks: Ruby on Rails
+  Software/Libraries: React, Redux, Git, YAML, jQuery, NodeJS, Microsoft Visual Studio .NET, GTK/QT, OpenGL
+  Server software: Apache2, Passenger, Thin, Unicorn, Puma, Nginx, Postfix
+  sep2:
+  Driving license: B
+Additional information:
+  Publications: Compact preference representation in stable marriage problems (prof. Francesca Rossi, prof. Khristen Venable, prof. Livio Colussi) - http://www.math.unipd.it/~frossi/adt6-cameraready.pdf
+  Open source: |
+    * https://www.github.com/pioz
   Relationship status: Married to Deborah Stocco
