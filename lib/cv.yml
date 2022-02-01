@@ -1,5 +1,5 @@
 name: Enrico Pilotto
-updated_at: 29 September 2017
+updated_at: 1 February 2022
 about_me: http://rubyonrailspadova.com/
 Personal Information:
   Name: Enrico
@@ -12,19 +12,36 @@ Personal Information:
   Email: epilotto@gmx.com (best way to contact me)
   Website: http://rubyonrailspadova.com/
   Twitter: https://twitter.com/pioz
+  Github: https://github.com/pioz
 Work Experience:
-  April 2009 – present: |
+  October 2020 - present: |
+    <b>Senior web developer</b>
+    CardTrader s.r.l.s. - Borgoricco (PD) - Italy
+
+    After years of working as a developer of web applications of all kinds for various clients of all kinds, I started working at CardTrader, an Amazon style marketplace for the trading of collectibles. With this work I have radically changed the way of working: if before I carried out several projects of more or less defined duration, now I develop only one project. This allows me to gain experience in developing super maintainable code because the code I write today I will have to understand and modify it tomorrow.
+
+  sep4:
+  January 2018 - October 2020: |
+    <b>Full stack web developer</b>
+    Uqido s.r.l. - Padova - Italy
+
+    When I began to understand that the work as a freelancer was no longer teaching me that much, I decided to change my path and look for a new opportunity where I can test myself, learn new things and above all compare myself with other experts in the sector. So I ended up working for Uqido. Uqido is a fast growing software house that deals with the development of web applications and virtual reality. I was immediately able to tackle very big and super interesting projects!! Uqido works "as God commands", trying to maintain the highest possible standards in both technology and methodology. I'm learning a lot of new things: for example I started following projects with really huge databases where research is essential and so I experimented with Elasticsearch finding an excellent ally in the most used search engine in the world! Furthermore, I started learning and mastering the AGILE methodology which allowed me to improve my working skills with myself and above all with others. I am very happy with this job!
+
+  sep3:
+  April 2009 – December 2017: |
     <b>Web developer</b>
     Freelancer - Albignasego (PD) - Italy
 
     In these years as freelancer I have developed many web applications of all kinds: from classic dynamic business websites to important e-commerce, product configurators, CMS, web management software and even social networks. I have developed projects for large companies such as Radio 105 and Selle Italia. Although I prefer the backend development of an application, I can easily move in the frontend, in fact I have good knowledge of HTML, CSS and Javascript, also experienced in developing interfaces in React.
-  sep1:
+
+  sep2:
   April 2012 – February 2017: |
     <b>Leader backend developer</b>
     Timerepublik S.A. - Albignasego (PD) - Italy / Lugano - Switzerland
 
     I have designed and developed the backend of the Timerepublik web application, a social network for the exchange of talents in exchange for time. Created by the idea of two Swiss people, in this community, users can exchange favours and pay with time units that act as a real currency. It was great to work on this project that definitely gave me the chance to increase my Rails mastery, but also to solve many problems that in an application like this one has to deal with. Also I could experience working in real team and know a little about Swiss realities.
-  sep2:
+
+  sep1:
   2006: |
     <b>Three-months internship</b>
     Digitalblu s.n.c. - San Zenone degli Ezzelini (TV) – Italy
@@ -60,7 +77,7 @@ Job-related skills:
     * I have a good teamwork experience and I like use support tools such as trackers and versioning systems.
     * Problem solving adept.
   sep1:
-  Programming languages: C, C++, Ruby, Java, Python, .NET C#, Ada, PHP, Go, LATEX
+  Programming languages: C, C++, <b>Ruby</b>, <b>Go</b>, Java, Python, .NET C#, Ada, PHP, LATEX
   Frontend: HTML, CSS, Javascript, HAML, SCSS
   DBMS: MySQL, MongoDB, Redis, SQLite
   Operating systems: GNU/Linux Debian, Mac OS X
@@ -73,4 +90,4 @@ Additional information:
   Publications: Compact preference representation in stable marriage problems (prof. Francesca Rossi, prof. Khristen Venable, prof. Livio Colussi) - http://www.math.unipd.it/~frossi/adt6-cameraready.pdf
   Open source: |
     * https://www.github.com/pioz
-  Relationship status: Married to Deborah Stocco
+  Relationship status: Married to Deborah Stocco, father of Giuseppe
