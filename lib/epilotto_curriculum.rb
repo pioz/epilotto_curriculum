@@ -4,7 +4,7 @@ require 'term/ansicolor'
 module EpilottoCurriculum
   include Term::ANSIColor
 
-  def build_from_yaml(yaml_file, width: 80, left_column_max_width_percent: 30)
+  def build_from_yaml(yaml_file, width: 80, left_column_max_width_percent: 25)
     cv = YAML.load_file(yaml_file)
     name = cv.delete('name')
     updated_at = cv.delete('updated_at')
@@ -29,6 +29,7 @@ module EpilottoCurriculum
             i += 1
           end
         end
+        s << "#{' ' * lc_w} #{cyan}|#{reset}"
       end
     end
     s << draw_about_me(name, about_me, width)
@@ -92,7 +93,7 @@ module EpilottoCurriculum
 
   def draw_about_me(name, link, width)
     if link.present?
-      s = "ℹ️  Really more info about #{name} here: #{link}"
+      s = "ℹ️ Really more info about #{name} here: #{link}"
       return "\n#{s}\n"
     end
   end

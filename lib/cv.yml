@@ -1,56 +1,55 @@
 name: Enrico Pilotto
-updated_at: 1 February 2022
+updated_at: 3 September 2025
 about_me: http://rubyonrailspadova.com/
 Personal Information:
   Name: Enrico
   Surname: Pilotto
-  Address: San Martino di Lupari (PD), 35018, Italy
+  Address: Padua, Italy
   Sex: M
   Date of birth: 21 October 1984
   Nationality: italian
   sep:
   Email: epilotto@gmx.com (best way to contact me)
   Website: http://rubyonrailspadova.com/
-  Twitter: https://twitter.com/pioz
   Github: https://github.com/pioz
 Work Experience:
   2006: |
-    <b>Three-months internship</b>
+    <b>Three-months Internship</b>
     Digitalblu s.n.c. - San Zenone degli Ezzelini (TV) – Italy
 
     I have developed a software in C# (Visual Studio .NET 2005) for handling phone calls through a PBX.
 
   sep1:
-  April 2009 – December 2017: |
-    <b>Web developer</b>
+  "April 2009\nDecember 2017": |
+    <b>Web Developer</b>
     Freelancer - Albignasego (PD) - Italy
 
-    In these years as freelancer I have developed many web applications of all kinds: from classic dynamic business websites to important e-commerce, product configurators, CMS, web management software and even social networks. I have developed projects for large companies such as Radio 105 and Selle Italia. Although I prefer the backend development of an application, I can easily move in the frontend, in fact I have good knowledge of HTML, CSS and Javascript, also experienced in developing interfaces in React.
+    As a freelancer, I have developed a wide range of web applications. This includes everything from classic business websites and e-commerce platforms to product configurators, content management systems (CMS), web management software, and even social networks. I've had the opportunity to work on projects for major companies like Radio 105 and Selle Italia. While I specialize in backend development, I'm also proficient in frontend technologies, with solid knowledge of HTML, CSS, and JavaScript, as well as experience with React.
 
   sep2:
-  April 2012 – February 2017: |
-    <b>Leader backend developer</b>
+  "April 2012\nFebruary 2017": |
+    <b>Leader Backend Developer</b>
     Timerepublik S.A. - Albignasego (PD) - Italy / Lugano - Switzerland
 
-    I have designed and developed the backend of the Timerepublik web application, a social network for the exchange of talents in exchange for time. Created by the idea of two Swiss people, in this community, users can exchange favours and pay with time units that act as a real currency. It was great to work on this project that definitely gave me the chance to increase my Rails mastery, but also to solve many problems that in an application like this one has to deal with. Also I could experience working in real team and know a little about Swiss realities.
+    I designed and developed the backend for the Timerepublik web application, a talent-exchange social network. Conceived by two Swiss entrepreneurs, the platform allows users to exchange favors and pay with time units that function as a real currency. This project was a fantastic opportunity to deepen my mastery of Rails and to solve the unique challenges that come with building a social network. I also gained valuable experience working as part of a team and got a glimpse into the Swiss tech scene.
 
   sep3:
-  January 2018 - October 2019: |
-    <b>Full stack web developer</b>
+  "January 2018\nOctober 2019": |
+    <b>Full Stack Web Developer</b>
     Uqido s.r.l. - Padova - Italy
 
-    When I began to understand that the work as a freelancer was no longer teaching me that much, I decided to change my path and look for a new opportunity where I can test myself, learn new things and above all compare myself with other experts in the sector. So I ended up working for Uqido. Uqido is a fast growing software house that deals with the development of web applications and virtual reality. I was immediately able to tackle very big and super interesting projects!! Uqido works "as God commands", trying to maintain the highest possible standards in both technology and methodology. I'm learning a lot of new things: for example I started following projects with really huge databases where research is essential and so I experimented with Elasticsearch finding an excellent ally in the most used search engine in the world! Furthermore, I started learning and mastering the AGILE methodology which allowed me to improve my working skills with myself and above all with others. I am very happy with this job!
+    When I realized that my freelance work was no longer challenging me, I decided to seek a new opportunity that would allow me to grow, learn new things, and collaborate with other industry experts. This led me to Uqido, a rapidly growing software house specializing in web applications and virtual reality. I was immediately able to tackle large and incredibly interesting projects. Uqido operates with a high standard for both technology and methodology, which has allowed me to learn a great deal. For example, I've started working on projects with massive databases where efficient searching is critical, and I've found a powerful tool in Elasticsearch. Furthermore, I've begun to master the Agile methodology, which has significantly improved my ability to work both independently and with a team. I'm very happy with this new professional direction.
 
   sep4:
-  October 2019 - present: |
-    <b>Senior web developer</b>
-    CardTrader s.r.l.s. - Borgoricco (PD) - Italy
+  "October 2019\nPresent": |
+    <b>Senior Web Developer</b>
+    CardTrader s.r.l.s. - Limena (PD) - Italy
 
-    After years of working as a developer of web applications of all kinds for various clients of all kinds, I started working at CardTrader (https://cardtrader.com), an Amazon style marketplace for the trading of collectibles. With this work I have radically changed the way of working: if before I carried out several projects of more or less defined duration, now I develop only one project. This allows me to gain experience in developing super maintainable code because the code I write today I will have to understand and modify it tomorrow.
+    After years of freelancing and developing a variety of web applications for different clients, I transitioned to a new role at CardTrader (https://cardtrader.com). This company runs an Amazon-style marketplace for trading collectibles. This change has radically shifted my approach to work. Instead of managing multiple projects of varying durations, I now focus exclusively on a single project. This new model has allowed me to gain significant experience in writing highly maintainable code—because I know that the code I write today, I'll have to understand and modify tomorrow. At CardTrader, in addition to strengthening my skills in Rails and React, I have also put my system administration skills into practice by configuring and setting up the various servers that form the backbone of CardTrader's web and non-web infrastructure.
 
 Education:
   2003: |
-    <b>High school degree - Surveyor</b>
+    <b>High School Degree - Surveyor</b>
     I.T.S. Girardi - Cittadella (PD) - Italy
 
   sep1:
@@ -58,7 +57,7 @@ Education:
     <b>Degree in Computer Science</b>
     University of Padua - Italy
 
-    Software Engineering, Web Development, Programming, Object Oriented Programming, Algorithms, Computer Architecture, Networking, Computer Security, Mathematics, Algebra, Logic, ...
+    Software Engineering, Web Development, Programming, Object Oriented Programming, Algorithms, Computer Architecture, Networking, Computer Security, Mathematics, Algebra, Logic ...
 
   sep2:
   ⭐️ 2009: |
@@ -80,16 +79,16 @@ Job-related skills:
     * I have a good teamwork experience and I like use support tools such as trackers and versioning systems.
     * Problem solving adept.
   sep1:
-  Programming languages: C, C++, <b>Ruby</b>, <b>Go</b>, Java, Python, .NET C#, Ada, PHP, LATEX
-  Frontend: HTML, CSS, Javascript, HAML, SCSS
-  DBMS: MySQL, MongoDB, Redis, SQLite
-  Operating systems: GNU/Linux Debian, Mac OS X
-  Frameworks: Ruby on Rails
+  Programming Languages: C, C++, <b>Ruby</b>, <b>Go</b>, Java, Python, .NET C#, Ada, PHP, LATEX
+  Frontend: HTML, CSS, Javascript
+  DBMS: MySQL, PostgreSQL, MongoDB, Redis, SQLite
+  Operating Systems: GNU/Linux Debian, Mac OS X
+  Frameworks: Ruby on Rails, Next.js
   Software/Libraries: React, Redux, Git, YAML, jQuery, NodeJS, Microsoft Visual Studio .NET, GTK/QT, OpenGL
-  Server software: Apache2, Passenger, Thin, Unicorn, Puma, Nginx, Postfix
+  Server Software: Apache2, Passenger, Thin, Unicorn, Puma, Nginx, Postfix
   sep2:
-  Driving license: B
+  Driving License: B
 Additional information:
   Publications: Compact preference representation in stable marriage problems (prof. Francesca Rossi, prof. Khristen Venable, prof. Livio Colussi) - http://www.math.unipd.it/~frossi/adt6-cameraready.pdf
-  Open source: https://www.github.com/pioz
-  Relationship status: Married to Deborah Stocco, Giuseppe's dad
+  Open Source: https://www.github.com/pioz
+  Relationship Status: Married to Deborah Stocco, Giuseppe's dad
